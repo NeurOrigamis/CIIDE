@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: ‘/CIIDE/‘,   //
-  build: { outDir: 'docs' }  //
+  base: '/CIIDE/',
+  build: { outDir: 'docs', emptyOutDir: true }
 })
